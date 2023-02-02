@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: rgb(8, 72, 84);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(8, 72, 84, 1) 0%,
+    rgba(0, 101, 121, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(8, 72, 84, 1) 0%,
+    rgba(0, 101, 121, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(8, 72, 84, 1) 0%,
+    rgba(0, 101, 121, 1) 100%
+  );
+}
+
+.body-container {
+  margin: 3% 15%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+li {
+  margin: 10px 0px 0px 20px;
+}
+
+fieldset {
+  padding: 7px 25px 25px 25px;
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+legend {
+  color: rgb(2, 23, 27);
+  font-size: 27px;
+  font-weight: 700;
+  padding: 0px 10px 0px 10px;
+}
+
+.photo-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 50px;
+}
+
+.my-avatar {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name-title {
+  white-space: nowrap;
+  font-size: 50px;
+}
+
+.divider {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.4) !important;
+}
