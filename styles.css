@@ -53,6 +53,7 @@ legend {
   flex-direction: row;
   align-items: center;
   column-gap: 50px;
+  background-color: rgb(88, 116, 117);
 }
 
 .my-avatar {
@@ -68,4 +69,13 @@ legend {
 .divider {
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.4) !important;
+}
+
+.icono {
+  font-size: 25px;
+  width: 5%;
+  padding: 3px;
+}
+ul {
+  align-items: center;
 }
