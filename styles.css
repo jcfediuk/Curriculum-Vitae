@@ -54,6 +54,7 @@ legend {
   align-items: center;
   column-gap: 50px;
   background-color: rgb(88, 116, 117);
+  padding: 1%;
 }
 
 .my-avatar {
